@@ -14,7 +14,7 @@ public class SampleController {
     @GetMapping("/hello")
     public Map<String, Object> sayHello() { 
         Map<String, Object> result = new LinkedHashMap<>();
-        result.put("message", "Hello, World! ramanjot kaur");
+        result.put("message", "Hello, World! ramanjot is a good mother");
         result.put("serverTime", System.currentTimeMillis());
         return result;
     }
